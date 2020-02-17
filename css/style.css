@@ -1,0 +1,65 @@
+body{
+
+    background-color: bisque;
+    
+}
+h1{
+    background-color: rgb(230, 187, 173);
+    color: rgb(85, 5, 61);
+    font-size:xx-large;
+   
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 150px;
+    
+}
+
+#name {
+    background-color:rgb(230, 187, 173);
+    font-size: large ;
+    color:rgb(85, 5, 61);  
+    border-style: double;
+  border-width: 2px;
+  text-align: center;
+  width: 300px;
+  padding: 40px;
+}
+
+#age{
+    background-color:rgb(230, 187, 173);
+    font-size: large ;
+    color:rgb(85, 5, 61);  
+    border-style: double;
+  border-width: 2px;
+  text-align: center;
+  width: 350px;
+  padding: 40px;
+  
+
+}
+
+#background{
+    background-color:rgb(230, 187, 173);
+    font-size: large ;
+    color:rgb(85, 5, 61);  
+    border-style: double;
+  border-width: 2px;
+  text-align: center;
+  width: 400px;
+  padding: 40px;
+
+}
+
+
+#interests{
+    background-color:rgb(230, 187, 173);
+    font-size: large ;
+    color:rgb(85, 5, 61);  
+    border-style: double;
+  border-width: 2px;
+  text-align: center;
+  width: 450px;
+  padding: 40px;
+
+
+}
