@@ -1,4 +1,5 @@
 'use strict'
+var score=0;
 var greeting= prompt('what is your name please?'); 
 alert('Hello ' + greeting);
 
@@ -8,6 +9,7 @@ switch(q1.toLowerCase()) {
      case 'y':
         //console.log('Do you think that i have a passion with coding?',q1);
         alert('You are totally right');
+        score++;
         break;
     case 'no' :
     case 'n' :
@@ -32,6 +34,7 @@ switch(q2.toLowerCase()) {
     case 'n' :
         //console.log('Do you think that i can write a code for 10 hours ?',q2);
         alert(' You are totally right');
+        score++;
         break;
     default:
         //console.log('Do you think that i can write a code for 10 hours ?',q2);
@@ -46,6 +49,7 @@ switch(q3.toLowerCase()) {
      case 'y':
         //console.log('Do you think that my favorite color is Pink?',q3);
         alert('You are totally right');
+        score++;
         break;
     case 'no' :
     case 'n' :
@@ -59,11 +63,12 @@ switch(q3.toLowerCase()) {
 
 
 var q4= prompt('Do you think i like workout? Yes/No '); 
-switch(q2.toLowerCase()) {
+switch(q4.toLowerCase()) {
     case 'yes' :
      case 'y':
         //console.log('Do you think i like workout?',q4);
         alert('You are totally right');
+        score++;
         break;
     case 'no' :
     case 'n' :
@@ -86,6 +91,7 @@ switch(q5.toLowerCase()) {
     case 'n' :
         //console.log('Do you think my favorite workout is Aerobics?',q5);
         alert('You are totally right');
+        score++;
         break;
     default:
         //console.log('Do you think my favorite workout is Aerobics?',q5);
@@ -95,7 +101,62 @@ switch(q5.toLowerCase()) {
 
 
 
-alert('THANK YOU FOR VISITING MY PAGE '+  greeting);
+
+
+var q6 = prompt('Can guess my lucky number ?');
+
+for (var i = 0; i <= 3; i++) {
+    console.log(i);
+    
+    if (q6 == 4){
+        console.log(q6);
+        alert('Pravoooo You guessed it !!! .')
+        score++;
+        break;
+    }
+    
+    else if (q6 <= 3) {
+        console.log(q6);
+        alert('You are getting closer!! .')
+       q6 = prompt('Can guess my lucky number ?');
+    }
+    else {
+        console.log(q6);
+        alert('Come on  try again .')
+        q6 = prompt('Can guess my lucky number ?');
+    }
+}
+alert('The right answer is number 4')
+
+
+var choices = ['action', 'comedy', 'drama', 'science-fiction', 'biography'];
+for (var a = 0; a <= 5; a++) {
+    var movies = prompt('Come on its your turn to guess which types of movies i prefer?');
+
+
+    if (movies.toLowerCase() === choices[a] ) {
+        alert('you are genius')
+        score++;
+        break;
+    }
+    else if(a==5){
+        alert('you ran out of attempts')
+    }
+
+    else {
+        
+        alert('please try again')
+    }
+
+
+}
+
+alert('your score is '+score)
+alert('Thanks for visiting my page you are welcome any time '+  greeting);
+
+
+
+
 
 
 

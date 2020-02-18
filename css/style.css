@@ -1,65 +1,41 @@
 body{
-
-    background-color: bisque;
-    
+  background-color: honeydew;
 }
 h1{
-    background-color: rgb(230, 187, 173);
+    background-color: rgb(210, 245, 210);
     color: rgb(85, 5, 61);
     font-size:xx-large;
    
     text-align: center;
-    text-decoration: underline;
-    margin-bottom: 150px;
+    border-radius: 10px;
+    margin-bottom: 50px;
     
 }
+p{
+  background-color: rgb(2, 85, 67);
+  font-size: large ;
+  color:floralwhite;  
+text-align: center;
+padding: 5px;
 
-#name {
-    background-color:rgb(230, 187, 173);
-    font-size: large ;
-    color:rgb(85, 5, 61);  
-    border-style: double;
-  border-width: 2px;
-  text-align: center;
-  width: 300px;
-  padding: 40px;
 }
+ol {
+  background-color: rgb(151, 179, 116);
+  font-size: large ;
+  color:rgb(85, 5, 61);  
+text-align: center;
+padding: 5px;
 
-#age{
-    background-color:rgb(230, 187, 173);
-    font-size: large ;
-    color:rgb(85, 5, 61);  
-    border-style: double;
-  border-width: 2px;
-  text-align: center;
-  width: 350px;
-  padding: 40px;
-  
 
 }
 
-#background{
-    background-color:rgb(230, 187, 173);
-    font-size: large ;
-    color:rgb(85, 5, 61);  
-    border-style: double;
-  border-width: 2px;
-  text-align: center;
-  width: 400px;
-  padding: 40px;
+ul{
+  list-style-type: circle;
+  background-color:   rgb(188, 201, 172);
+  font-size: large ;
+  color:rgb(85, 5, 61);  
+text-align: center;
+padding: 5px;
 
 }
 
-
-#interests{
-    background-color:rgb(230, 187, 173);
-    font-size: large ;
-    color:rgb(85, 5, 61);  
-    border-style: double;
-  border-width: 2px;
-  text-align: center;
-  width: 450px;
-  padding: 40px;
-
-
-}
