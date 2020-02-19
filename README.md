@@ -6,4 +6,5 @@
 - Tools are used: Terminal (ubuntu, VS code )
 
 ## The license i have used is : MIT .
-sarah malash was the driver: https://github.com/ahlamalefishat96/About-me/pull/1
+Sarah malash was the driver: [ pull request link ]( https://github.com/ahlamalefishat96/About-me/pull/1) 
+Ahlam alefishat was the navigator: [ pull request link ] (https://github.com/ahlamalefishat96/About-me/pull/1 )
