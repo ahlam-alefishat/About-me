@@ -1,5 +1,5 @@
 'use strict'
-/*var score=0;
+var score=0;
 
 var greeting= prompt('what is your name please?'); 
 alert('Hello ' + greeting);
@@ -164,7 +164,6 @@ alert('Thanks for visiting my page you are welcome any time '+  greeting);
 
 
 
-*/
 
 
 
