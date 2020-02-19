@@ -129,31 +129,28 @@ for (var i = 0; i <= 3; i++) {
 alert('The right answer is number 4')
 
 
-var choices = ['action', 'comedy', 'drama', 'science-fiction', 'biography'];
-for (var a = 0; a <= 5; a++) {
-    var movies = prompt('Come on its your turn to guess which types of movies i prefer?');
-
-
-    if (movies.toLowerCase() === choices[a] ) {
-        alert('you are genius')
-        score++;
+var choices = ['action', 'comedy', 'drama', 'biography'];
+choices.push('aaa');
+for (var a = 0; a <= 6; a++) {
+    if(a==6){
+        alert('you ran out of attempts ');
         break;
     }
-    else if(a==5){
-        alert('you ran out of attempts')
-    }
+    var q7= prompt('Come on its your turn to guess which types of movies i prefer?');
 
-    else {
-        
-        alert('please try again')
-    }
-
+  for (var s=0; s <= choices.length ; s++)
+    if (q7.toLowerCase() === choices[s] ) {
+        alert('you are genius');
+       // console.log();
+        score++;
+        break;
+    } 
+    
 
 }
 
 alert('your score is '+score)
 alert('Thanks for visiting my page you are welcome any time '+  greeting);
-
 
 
 

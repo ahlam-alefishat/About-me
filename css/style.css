@@ -21,10 +21,11 @@ padding: 5px;
 }
 ol {
   background-color: rgb(151, 179, 116);
-  font-size: large ;
-  color:rgb(85, 5, 61);  
+   font-size: medium;
+  color:rgb(85, 5, 61);
+  list-style-type: decimal;
 text-align: center;
-padding: 5px;
+padding: 10px;
 
 
 }
