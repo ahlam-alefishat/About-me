@@ -19,11 +19,11 @@ text-align: center;
 padding: 5px;
 
 }
-ol {
+ol li {
   background-color: rgb(151, 179, 116);
    font-size: medium;
   color:rgb(85, 5, 61);
-  list-style-type: decimal;
+  list-style-type: circle;
 text-align: center;
 padding: 10px;
 
