@@ -108,7 +108,7 @@ switch(q5.toLowerCase()) {
 question5();
 
 function question6 (){
-var q6 = parseInt( prompt('Can guess my lucky number ?'));
+var q6 = parseInt( prompt('Can guess my lucky number ?') );
 
 for (var i = 0; i <= 3; i++) {
     console.log(i);
