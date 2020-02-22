@@ -1,7 +1,18 @@
 body{
   background-color: honeydew;
 }
+
+nav ul li {
+  position: sticky;
+    
+  padding: 10px ;
+  display: inline-block;
+  text-decoration: none; 
+
+}
+
 h1{
+  position: sticky;
     background-color: rgb(210, 245, 210);
     color: rgb(85, 5, 61);
     font-size:xx-large;
@@ -19,13 +30,13 @@ text-align: center;
 padding: 5px;
 
 }
-ol li {
-  background-color: rgb(151, 179, 116);
+ol{
+  
    font-size: medium;
   color:rgb(85, 5, 61);
-  list-style-type: circle;
-text-align: center;
-padding: 10px;
+  list-style-type: decimal;
+  text-align-last:center;
+   padding: 20px;
 
 
 }
@@ -39,4 +50,14 @@ text-align: center;
 padding: 5px;
 
 }
-
+footer{
+    background-color: rgb(210, 245, 210);
+    color: rgb(85, 5, 61);
+    font-size:small;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 200px;
+    
+  
+}
